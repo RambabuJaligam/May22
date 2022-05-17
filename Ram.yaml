@@ -1,0 +1,29 @@
+{
+	"Resources":{
+		"myvpc": {
+		"Type" : "AWS::EC2::VPC::"Volume"",
+		"Properties" : {
+		"CidrBlock" : "10.0.0.0/26"
+		"NewVolume" : {
+			"Size" : "10",
+			},
+				}
+		"Tags": [
+			{
+				"key": "Name",
+				"Value": "App-Vpc1"
+				},
+			{
+				"key": "Env",
+				"Value": "Dev"
+			},
+			{
+				"Key" : "NewVolume1",
+				"Value" : "TagValue"
+
+			}
+				]
+			}
+		} 
+	}
+}	
